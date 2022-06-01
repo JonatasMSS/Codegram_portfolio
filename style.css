@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(243, 243, 243);
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.codegram-phone{
+    width: 50%;
+}
+.codegram-phone img{
+    width: 100%;
+}
+
+.group-data{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px 50px;
+    border: 1px solid rgb(202, 202, 202);
+    justify-content: center;
+    align-items: center;
+}
+.group-data:nth-child(1){
+    height: 70vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.form-data input{
+    text-overflow: ellipsis;
+    width: 40vh;
+    padding: 10px;
+    border: 1px solid rgb(202, 202, 202);
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+.button-input input{
+    background-color:rgb(190, 190, 251);
+    
+}
+.other-option-text{
+    color: grey;
+    margin: 25px 0px;
+    display: flex;
+    
+}
+.other-option-text p{
+    margin: 0px 10px;
+}
+.other-option-text .lines{
+    width: 110px;
+    height: 0;
+    border: 1px solid rgb(208, 208, 208);
+   
+    margin-top: 7px;
+}
+.facebook-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.facebook-login img{
+   width: 5vh;
+   margin-right: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .codegram-phone{
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width:425px) {
+    .codegram-phone{
+        display: none;
+    }
+    
+}
